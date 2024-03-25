@@ -1,0 +1,6 @@
+
+docker pull cassandra:latest
+
+docker run --name bigd_cass -p 9042:9042 -d cassandra:latest
+
+pip install cassandra-driver
