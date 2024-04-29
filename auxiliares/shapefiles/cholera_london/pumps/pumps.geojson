@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 1, "name": "Broad St Pump", "COORD_X": 529396.539396, "COORD_Y": 181025.063047 }, "geometry": { "type": "Point", "coordinates": [ -0.136667876715489, 51.513341117122337 ] } },
+{ "type": "Feature", "properties": { "ID": 2, "name": "Little Marlborough St Pump", "COORD_X": 529192.537868, "COORD_Y": 181079.391379 }, "geometry": { "type": "Point", "coordinates": [ -0.139586169057648, 51.513875990905724 ] } },
+{ "type": "Feature", "properties": { "ID": 3, "name": "Marlborough Mews Pump", "COORD_X": 529183.739766, "COORD_Y": 181193.735012 }, "geometry": { "type": "Point", "coordinates": [ -0.139671022698774, 51.514905572606388 ] } },
+{ "type": "Feature", "properties": { "ID": 5, "name": "Rupert St Pump", "COORD_X": 529613.205238, "COORD_Y": 180896.804121 }, "geometry": { "type": "Point", "coordinates": [ -0.133594411486864, 51.512138879049523 ] } },
+{ "type": "Feature", "properties": { "ID": 6, "name": "Bridle St Pump", "COORD_X": 529453.585995, "COORD_Y": 180826.353152 }, "geometry": { "type": "Point", "coordinates": [ -0.135919147672121, 51.511542318540442 ] } },
+{ "type": "Feature", "properties": { "ID": 8, "name": "Warwick St Pump", "COORD_X": 529296.104419, "COORD_Y": 180794.849037 }, "geometry": { "type": "Point", "coordinates": [ -0.138198768039342, 51.511295226126343 ] } },
+{ "type": "Feature", "properties": { "ID": 4, "name": "Dean St Pump", "COORD_X": 529402.700000, "COORD_Y": 180878.300000 }, "geometry": { "type": "Point", "coordinates": [ -0.131584359044577, 51.512314445768503 ] } },
+{ "type": "Feature", "properties": { "ID": 7, "name": "Tighborne St Pump\rTighborne St Pump\r", "COORD_X": 529539.200000, "COORD_Y": 180883.600000 }, "geometry": { "type": "Point", "coordinates": [ -0.133879631534134, 51.510103835724792 ] } }
+]
+}

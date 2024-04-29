@@ -1,0 +1,11 @@
+# 1. Get the Mongo image
+docker pull mongo:latest
+
+# 2. Run the Mongo container
+docker run -d -p 27017:27017 --name mongodb mongo
+
+# 3. Install Mongo
+pip install pymongo
+
+# 4. Connect to the Mongo container
+Ver clase 10

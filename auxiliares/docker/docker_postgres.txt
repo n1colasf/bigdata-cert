@@ -1,0 +1,11 @@
+# 1. Get the Postgres image
+docker pull postgres
+
+# 2. Run the Postgres container
+docker run --name bigd-db -e POSTGRES_PASSWORD=bigData1234 -e POSTGRES_DB=bigd-db -p 5432:5432 -d postgres
+
+# 3. Install postgres
+pip install psycopg2-binary
+
+# 4. Connect to the Postgres container
+Ver Clase 6

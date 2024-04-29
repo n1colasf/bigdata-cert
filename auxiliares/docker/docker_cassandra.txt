@@ -1,0 +1,11 @@
+# 1. Get the Cassandra image
+docker pull cassandra:latest
+
+# 2. Run the Cassandra container
+docker run --name bigd_cass -p 9042:9042 -d cassandra:latest
+
+# 3. Install Cassandra
+pip install cassandra-driver
+
+# 4. Connect to the Cassandra container
+Ver clase 8

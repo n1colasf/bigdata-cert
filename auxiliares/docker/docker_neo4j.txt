@@ -1,0 +1,11 @@
+# 1. Get the Neo4j image
+docker pull neo4j:latest
+
+# 2. Run the Neo4j container
+docker run --name bd-neo4j -p 7474:7474 -p 7687:7687 -d neo4j
+
+# 3. Install Neo4j
+pip install py2neo
+
+# 4. Connect to the Neo4j container
+Ver clase 12
